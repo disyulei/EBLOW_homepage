@@ -1,0 +1,25 @@
+#!
+
+# ========================   E-BLOW - Version 3.0   ======================== 
+                  Bei Yu        Kun Yuan       David Z. Pan             
+                    ECE Dept.,   Unve. of Texas at Austin               
+                           Copyright (c) 2010 - 2013                    
+                 Contact Authors:   {bei, dpan}@ece.utexas.edu          
+# ========================================================================== 
+
+## Important Release:
+
+E-BLOW_2_X:  DAC'13 release
+E-BLOW_3_0:  TVLSI submission release
+
+
+## Log:
+
+04/02/2014: version 3.0
+
+04/01/2014: version 2.1
+            fix bugs, more characters can be inserted into stencil
+
+07/20/2013: version 2.0
+            send to Kuang Jian & Prof. Chris Chu
+

@@ -1,0 +1,82 @@
+# jemdoc: addcss{jemdoc/jemdoc.css}
+# jemdoc: addcss{jemdoc/myExtra.css}
+# jemdoc: title{E-BLOW}
+
+
+# ==== Title and Authors
+{{
+<p><center><font size="8" face="Times New Roman" color="b54900">
+E-BLOW: E-Beam Lithography Overlapping aware Stencil Planning for MCC System
+</font></center></p>
+#<p><center><font size="6">
+#Authors:
+#<a href="http://www.cerc.utexas.edu/~bei" target="_blank">Bei Yu</a>
+#and
+#<a href="http://users.ece.utexas.edu/~dpan/" target="_blank">Prof. David Z. Pan</a>
+#</font></center></p>
+}}
+
+
+{{<div id="intro">}}
+== Introduction
+
+~~~
+{}{img_left}{jemdoc/img/DAC13_MCC.jpg}{mcc}{344}{}{}
+
+As the minimum feature size continues to scale to sub-22nm, the conventional 193nm optical photolithography technology is facing great challenge in manufacturing.
+In the longer future, i.e., for the logic node beyond 14nm, electric beam lithography (EBL) is promising candidate for lithographic processes.
+Even with decades of development, the key limitation of the EBL system has been and still is the low throughput.
+Recently, multi-column cell (MCC) system is proposed as an extension of conventional EBL system,
+where several independent character projections (CP) are used to further speed-up the writing process.
+Each CP is applied on one section of wafer, and all CPs can work parallelly to achieve better throughput.
+Due to the design complexity and cost consideration, different CPs share one stencil design.
+For modern design, because of the numerous distinct circuit patterns,  only limited number of patterns can be employed on stencil.
+Therefore, the area constraint of stencil is the bottleneck. 
+To improve the throughput, the stencil should be carefully designed/manufactured to contain the most repeated cells or patterns.
+
+This paper presents *E-BLOW*, a high performance planner for OSP problem in MCC system.
+E-BLOW integrates several novel techniques to achieve near-optimal solution in reasonable time.
+. Proposes a simplified formulation for 1D-OSP, and proves its rounding lower bound theoretically.
+. A successive relaxation algorithm to find a near optimal solution.
+. KD-Tree based clustering algorithm for speedup in 2D-OSP.
+~~~
+
+{{</div>}}
+
+
+
+{{<div id="excu">}}
+== Executables
+
+- DAC'13 executables: [executables/EBLOW_2_1.tar.gz Version 2.1]
+
+{{</div>}}
+
+
+
+{{<div id="publication">}}
+== Publications
+
+- Bei Yu, Kun Yuan, Jhih-Rong Gao, and David Z. Pan,
+  "[http://dl.acm.org/citation.cfm?id=2463209.2488819 E-BLOW: E-Beam Lithography Overlapping aware Stencil Planning for MCC System]",
+  IEEE/ACM Design Automation Conference (DAC), Austin, TX, June 2-6, 2013.
+
+{{</div>}}
+
+
+{{<div id="contact">}}
+== Contact
+
+E-BLOW is developed by [http://www.cerc.utexas.edu/~bei Bei Yu] and 
+[http://users.ece.utexas.edu/~dpan/ Prof. David Z. Pan].
+Please [mailto:bei@cerc.utexas.edu contact us] with any bug reports and comments. 
+
+{{</div>}}
+
+
+{{<div id="link">}}
+== Links
+
+{{</div>}}
+
+
