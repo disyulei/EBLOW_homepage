@@ -1,5 +1,5 @@
-# jemdoc: addcss{jemdoc/jemdoc.css}
-# jemdoc: addcss{jemdoc/myExtra.css}
+# jemdoc: addcss{css/jemdoc.css}
+# jemdoc: addcss{css/myMiddle.css}
 # jemdoc: title{E-BLOW}
 
 
@@ -21,7 +21,7 @@ E-BLOW: E-Beam Lithography Overlapping aware Stencil Planning for MCC System
 == Introduction
 
 ~~~
-{}{img_left}{jemdoc/img/DAC13_MCC.jpg}{mcc}{344}{}{}
+{}{img_left}{jemdoc/img/DAC13_MCC.jpg}{mcc}{3688}{}{}
 
 As the minimum feature size continues to scale to sub-22nm, the conventional 193nm optical photolithography technology is facing great challenge in manufacturing.
 In the longer future, i.e., for the logic node beyond 14nm, electric beam lithography (EBL) is promising candidate for lithographic processes.
@@ -57,9 +57,13 @@ E-BLOW integrates several novel techniques to achieve near-optimal solution in r
 {{<div id="publication">}}
 == Publications
 
-- Bei Yu, Kun Yuan, Jhih-Rong Gao, and David Z. Pan,
+- Bei Yu, Kun Yuan, Jhih-Rong Gao, Shiyan Hu, David Z. Pan,
+  "[https://doi.org/10.1145/2888394 EBL Overlapping aware Stencil Planning for MCC System]",
+  ACM Transactions on Design Automation of Electronic Systems (*TODAES*), vol. 21, no. 3, pp. 43:1--43:24, 2016.
+
+- Bei Yu, Kun Yuan, Jhih-Rong Gao, David Z. Pan,
   "[http://dl.acm.org/citation.cfm?id=2463209.2488819 E-BLOW: E-Beam Lithography Overlapping aware Stencil Planning for MCC System]",
-  ACM\/IEEE Design Automation Conference (DAC), pp. 70:1--70:7, Austin, TX, June 2--6, 2013.
+  ACM/IEEE Design Automation Conference (*DAC*), pp. 70:1--70:7, Austin, TX, June 2--6, 2013.
 
 {{</div>}}
 

@@ -70,20 +70,21 @@ a:hover {
 	color: #022b6d;
 	border-bottom: 1px gray solid;
 }
-#layout-menu a:link, #layout-menu a:visited{
+#layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
 	color: #527bbd;
 	text-decoration: none;
 }
+#layout-menu a:hover {
+	text-decoration: none;
+}
 
-/*
 div.menu-category {
-	border-bottom: 1px solid gray;
+	/*border-bottom: 1px solid gray;*/
 	margin-top: 0.8em;
 	padding-top: 0.2em;
 	padding-bottom: 0.1em;
 	font-weight: bold;
 }
-*/
 
 div.menu-item {
 	padding-left: 16px;
@@ -337,7 +338,7 @@ img.eqwl {
 }
 
 table {
-    border: 2px solid black;
+    #border: 2px solid black;
     border-collapse: collapse;
 }
 
@@ -345,7 +346,8 @@ td {
     padding: 2px;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    text-align: center;
+#   text-align: center;
+    text-align: left;
     border: 1px solid gray;
 }
 

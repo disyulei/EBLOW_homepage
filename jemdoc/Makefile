@@ -1,4 +1,4 @@
 all:
-	./jemdoc.py  -o ../ index.jemdoc
+	./jemdoc -o ../ index.jemdoc
 	#cp -rf eqs  ../
 
