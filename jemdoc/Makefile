@@ -1,4 +1,6 @@
 all:
 	./jemdoc -o ../ index.jemdoc
-	#cp -rf eqs  ../
+	chmod a+x ../css ../img ../executables
+	chmod a+r ../css/* ../img/*.jpg  ../executables/*
+	chmod a+r ../*.html
 

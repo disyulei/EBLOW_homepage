@@ -21,7 +21,7 @@ E-BLOW: E-Beam Lithography Overlapping aware Stencil Planning for MCC System
 == Introduction
 
 ~~~
-{}{img_left}{jemdoc/img/DAC13_MCC.jpg}{mcc}{3688}{}{}
+{}{img_left}{./img/DAC13_MCC.jpg}{mcc}{3388}{}{}
 
 As the minimum feature size continues to scale to sub-22nm, the conventional 193nm optical photolithography technology is facing great challenge in manufacturing.
 In the longer future, i.e., for the logic node beyond 14nm, electric beam lithography (EBL) is promising candidate for lithographic processes.
@@ -71,9 +71,9 @@ E-BLOW integrates several novel techniques to achieve near-optimal solution in r
 {{<div id="contact">}}
 == Contact
 
-E-BLOW is developed by [http://www.cerc.utexas.edu/~bei Bei Yu] and 
+E-BLOW is developed by [http://www.cse.cuhk.edu.hk/~byu/ Bei Yu] and 
 [http://users.ece.utexas.edu/~dpan/ Prof. David Z. Pan].
-Please [mailto:bei@cerc.utexas.edu contact us] with any bug reports and comments. 
+Please [mailto:byu@cse.cuhk.edu.hk contact us] with any bug reports and comments. 
 
 {{</div>}}
 
